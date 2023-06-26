@@ -2,23 +2,20 @@
 
 /**
  * puts2 - prints every character of a string
- * @str: the string to be treated
- * Return: void
+ * @str: the used string reference
+ * Return: 0
  */
-void puts2(char *str)
+void put2(char *str)
 {
-	int i;
-	int j = 0';
+	int z = 0;
 
-	while (str[j] != '\0')
+	while (str[z] != '\0')
 	{
-		j++;
-	}
-
-	for (i = 0; i < j; i += 2)
-	{
-		_putchar(str[i]);
+		if (z % 2 == 0)
+		{
+			_putchar(str[z]);
+		}
+		z++;
 	}
 	_putchar('\n');
 }
-
