@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * ptint_numbers - prints numbers, followed by a new line
- * @separator: string to be printed between numbers
- * @n: number of integers passed to the function
- * @...: variable number of numbers to be printed
+ * print_numbers - Prints numbers, followed by a new line.
+ * @separator: String to be printed between numbers.
+ * @n: Number of integers passed to the function.
+ * @...: Variable number of numbers to be printed.
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
